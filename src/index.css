@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+.main-content-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    /*height: 100vh; !* Full viewport height *!*/
+}
+
+.tab-content-container {
+    display: flex;
+    justify-content: center;
+}
+
+.main-content-container {
+    background: rgba(255, 0, 0, 0.1);   /* light red */
+    border: 1px solid red;
+}
+.tab-content-container {
+    background: rgba(0, 255, 0, 0.1);   /* light green */
+    border: 1px solid limegreen;
+}
+.tab-content-container > .w-\[400px\] {
+    background: rgba(0, 0, 255, 0.1);   /* light blue */
+    border: 1px solid blue;
+}
+
